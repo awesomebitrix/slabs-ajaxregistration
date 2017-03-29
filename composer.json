@@ -1,0 +1,14 @@
+{
+    "name": "starlabs/main.register",
+    "description": "Улучшенная регистрация, работающая на ajax, с правильным выводом ошибок.",
+    "type": "bitrix-d7-template",
+    "authors": [
+        {
+            "name": "Nathan Stark",
+            "email": "nathan@starlabs.su"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1"
+    }
+}
