@@ -9,6 +9,7 @@ $redirect = $request->get('redirect');
 
 if ( $request->isAjaxRequest() && $reqAction=="captcha" ) {
     $APPLICATION->RestartBuffer();
+    header('Content-Type: application/json; charset=utf-8');
     echo json_encode($APPLICATION->CaptchaGetCode());
     die();
 }
